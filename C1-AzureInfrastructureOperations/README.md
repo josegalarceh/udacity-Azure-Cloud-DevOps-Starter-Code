@@ -25,7 +25,7 @@ For this project, you will write a Packer template and a Terraform template to d
 
 ======
 Azure
-
+======
 2. Create a Service Principal on Azure portal, with the Owner suscription role and a secret. Save the Aplication ID (Client ID) and the Secret Value (Client Secret).
 3. Create a Resource Group on Azure portal, with the name rgPacker, to alocate the virtual machine image.
 4. Complete and save the values on the file 'servicePrincipal.sh' with the service principal data (Client ID and Client Secret), Suscription ID and tenant ID. Then execute:
