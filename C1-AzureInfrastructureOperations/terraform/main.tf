@@ -56,7 +56,7 @@ resource "azurerm_network_security_group" "nsg" {
     source_address_prefix      = "*"
     destination_address_prefix = "*"
   }
-
+### explicitly denies inbound traffic from the internet
   security_rule {
     name                       = "denyFromInternet"
     priority                   = 102
