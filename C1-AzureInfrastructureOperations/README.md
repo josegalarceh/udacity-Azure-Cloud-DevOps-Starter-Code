@@ -29,10 +29,12 @@ Azure
 2. Create a Service Principal on Azure portal, with the Owner suscription role and a secret. Save the Aplication ID (Client ID) and the Secret Value (Client Secret).
 3. Create a Resource Group on Azure portal, with the name rgPacker, to alocate the virtual machine image.
 4. Complete and save the values on the file 'servicePrincipal.sh' with the service principal data (Client ID and Client Secret), Suscription ID and tenant ID. Then execute:
+
 ```
     ./servicePrincipal.sh
 ```
 5. Go to subfolder 'azurePolicy' and run:
+
 ```
     az policy definition create -n 'tagging-policy' --display-name 'Audit Resources with tags' --description 'Enforces a required tag and its value.' --rules azurePolicyRules.json --params azurePolicyParameters.json --mode Indexed --debug
     
@@ -57,6 +59,7 @@ Packer
 Terraform
 
 8. Go to subfolder terraformFiles, and personalice the terraform.tfvars file with your values like name of project, projectlocation, role, number of virtuals machines (vm), ID of the packer image. For more details, read the terraform/vars.tf file. then run:
+
 ```
     terraform init
     terraform validate
@@ -66,11 +69,13 @@ Terraform
 ======
 Cleaning
 
-```
+
 10. If all the deploy is ok and done, then clean your resources. Inside the subfolder terraformFile run:
+
 ```
     terraform destroy 
 ```
+
 11. In the azure Portal, delete the resource group rgPacker
 
 
