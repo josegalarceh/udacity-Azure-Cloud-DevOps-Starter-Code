@@ -6,17 +6,17 @@ For this project, you will write a Packer template and a Terraform template to d
 ## Getting Started
 1. Clone this repository
 
-    In the folder azurePolicy you wild find the files to create a custom azure policy with azure cli.
+    In the folder [azurePolicy](https://github.com/josegalarceh/udacity-Azure-Cloud-DevOps-Starter-Code/tree/master/C1-AzureInfrastructureOperations/azurePolicy) you wild find the files to create a custom azure policy with azure cli.
 
-    In the folder packer you will find the files to create a virtual machine image with packer.
+    In the folder [packer](https://github.com/josegalarceh/udacity-Azure-Cloud-DevOps-Starter-Code/tree/master/C1-AzureInfrastructureOperations/packer) you will find the files to create a virtual machine image with packer.
 
-    In the folder terraform you will find the files to create and deploy all the needed infraestruture with terraform.
+    In the folder [terraform](https://github.com/josegalarceh/udacity-Azure-Cloud-DevOps-Starter-Code/tree/master/C1-AzureInfrastructureOperations/terraform) you will find the files to create and deploy all the needed infraestruture with terraform.
 
-    In the folder evidence you will find the evidence required from udacity project.
+    In the folder [evidence](https://github.com/josegalarceh/udacity-Azure-Cloud-DevOps-Starter-Code/tree/master/C1-AzureInfrastructureOperations/evidence) you will find the evidence required from udacity project.
 
-    In the file servicePrincipal.sh you will complete with your data, to interact with azure.
-    
-    In the file terraform/main.tf in the line 31, you will find the configuration to create a "Network security group that explicitly denies inbound traffic from the internet"
+    In the file [servicePrincipal.sh](https://github.com/josegalarceh/udacity-Azure-Cloud-DevOps-Starter-Code/tree/master/C1-AzureInfrastructureOperations/servicePrincipal.sh) you will complete with your data, to interact with azure.
+
+    In the file [terraform/main.tf](https://github.com/josegalarceh/udacity-Azure-Cloud-DevOps-Starter-Code/tree/master/C1-AzureInfrastructureOperations/terraform/main.tf) in the line 31, you will find the configuration to create a "Network security group that explicitly denies inbound traffic from the internet"
 
 2. Create your infrastructure as code
 
