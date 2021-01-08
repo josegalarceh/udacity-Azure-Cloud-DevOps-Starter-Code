@@ -5,11 +5,17 @@ For this project, you will write a Packer template and a Terraform template to d
 
 ## Getting Started
 1. Clone this repository
+
     In the folder azurePolicy you wild find the files to create a custom azure policy with azure cli.
+
     In the folder packer you will find the files to create a virtual machine image with packer.
+
     In the folder terraform you will find the files to create and deploy all the needed infraestruture with terraform.
+
     In the folder evidence you will find the evidence required from udacity project.
+
     In the file servicePrincipal.sh you will complete with your data, to interact with azure.
+    
     In the file terraform/main.tf in the line 31, you will find the configuration to create a "Network security group that explicitly denies inbound traffic from the internet"
 
 2. Create your infrastructure as code
